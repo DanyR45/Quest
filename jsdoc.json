@@ -1,0 +1,22 @@
+{
+    "plugins":[],
+
+    "source": {
+        "include":["src"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/docs)"
+    },
+
+    "template": {
+        "cleverLinks": false,
+        "monospaceLinlks": false
+    },
+    "opts": {
+        "recurse":"true",
+        "destination":"./doc",
+        "template": "node_modules/tui-jsdoc-template",
+        "tutorials":"./tutorials"
+
+    }
+
+}
